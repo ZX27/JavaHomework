@@ -1,3 +1,5 @@
+package pptHomework;
+
 import java.util.Scanner;
 
 public class UpperOrLower

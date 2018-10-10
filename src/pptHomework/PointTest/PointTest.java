@@ -1,4 +1,4 @@
-package PointTest;
+package pptHomework.PointTest;
 
 public class PointTest
 {

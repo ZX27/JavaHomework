@@ -1,4 +1,4 @@
-package inheritance;
+package pptHomework.inheritance;
 
 public class Person
 {

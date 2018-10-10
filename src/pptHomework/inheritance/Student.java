@@ -1,6 +1,4 @@
-package inheritance;
-
-import java.io.PrintStream;
+package pptHomework.inheritance;
 
 public class Student extends Person
 {
