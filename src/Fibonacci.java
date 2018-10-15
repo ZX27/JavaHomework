@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Fibonacci
 {
-    public static void printFibonacciSequence(int length)
+    public static void printFibonacciSequence(long length)
     {
-        int i = 0;
-        int j = 1;
-        int sum = 0;
+        long i = 0;
+        long j = 1;
+        long sum = 0;
 
-        for (int k = 1; k <= length; k++)
+        for (long k = 1; k <= length; k++)
         {
             if (k == 1)
             {
@@ -19,7 +19,7 @@ public class Fibonacci
                 sum = i + j;
                 i = j;
                 j = sum;
-                System.out.print(sum + " ");
+                System.out.println(sum);
             }
         }
     }
@@ -27,7 +27,7 @@ public class Fibonacci
     {
         Scanner in = new Scanner(System.in);
         System.out.println("输入想要输出的Fibonacci数列的长度：");
-        int length = in.nextInt();
+        long length = in.nextLong();
 
         printFibonacciSequence(length);
     }
