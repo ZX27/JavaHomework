@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1011b508-e5f8-493e-b07c-7a5cc9fd8f51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/PrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fibonacci.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,37 +16,37 @@
     <session id="-1601341369">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="3" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="java" value="25" />
+          <entry key="java" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3696" />
+          <entry key="java" value="4479" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3696" />
+          <entry key="JAVA" value="4479" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -54,11 +54,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="238">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PrimeNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -100,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/getArea/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/getArea/TestGetArea.java" />
         <option value="$PROJECT_DIR$/src/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/PrimeNumber.java" />
       </list>
     </option>
   </component>
@@ -150,8 +160,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,7 +169,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/CODING/SdkManager" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539573714994" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539582351673" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -184,16 +194,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci">
-    <configuration name="DigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DigitSum" />
+  <component name="RunManager" selected="Application.PrimeNumber">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
       <module name="JavaHomework" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeNumber" />
       <module name="JavaHomework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -223,19 +233,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DigitSum" />
       <item itemvalue="Application.TestArray" />
       <item itemvalue="JavaScript Debug.HelloJava.html" />
       <item itemvalue="Application.TestGetArea" />
       <item itemvalue="Application.Fibonacci" />
+      <item itemvalue="Application.PrimeNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.TestGetArea" />
         <item itemvalue="JavaScript Debug.HelloJava.html" />
         <item itemvalue="Application.TestArray" />
-        <item itemvalue="Application.DigitSum" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +266,8 @@
       <workItem from="1539163879825" duration="4331000" />
       <workItem from="1539257925509" duration="661000" />
       <workItem from="1539334324071" duration="5192000" />
-      <workItem from="1539569649767" duration="3818000" />
+      <workItem from="1539569649767" duration="5434000" />
+      <workItem from="1539578727240" duration="3596000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1538741510813</created>
@@ -391,17 +402,23 @@
       <option name="project" value="LOCAL" />
       <updated>1539573399932</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ok">
+      <created>1539573730976</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1539573730976</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28916000" />
+    <option name="totallyTimeSpent" value="34128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,8 +427,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3279483" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990307" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3263328" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39256865" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -522,9 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HelloJava.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloJava.html" />
     <entry file="jar://D:/CODING/JDK11/lib/src.zip!/java.base/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5270">
@@ -591,8 +606,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="238">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrimeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
         </state>
       </provider>
     </entry>
