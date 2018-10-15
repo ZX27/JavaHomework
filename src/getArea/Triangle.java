@@ -1,13 +1,13 @@
 package getArea;
 
-public class triangle
+public class Triangle
 {
     private int side1;
     private int side2;
     private int side3;
 
 
-    public triangle(int side1, int side2, int side3)
+    public Triangle(int side1, int side2, int side3)
     {
         this.side1 = side1;
         this.side2 = side2;
@@ -23,7 +23,7 @@ public class triangle
 
     public void getTriangle()
     {
-        System.out.println("side1 = " + this.side1 + " , side2 = " + this.side2 + " , side3 = " + this.side3);
+        System.out.println("三角形：" + "side1 = " + this.side1 + " , side2 = " + this.side2 + " , side3 = " + this.side3);
     }
 
     public double getArea()

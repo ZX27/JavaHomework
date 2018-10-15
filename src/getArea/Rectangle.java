@@ -1,11 +1,11 @@
 package getArea;
 
-public class rectangle
+public class Rectangle
 {
     private int length;
     private int width;
 
-    public rectangle(int length, int width)
+    public Rectangle(int length, int width)
     {
         this.length = length;
         this.width = width;
@@ -23,9 +23,9 @@ public class rectangle
 
     public void getRectangle()
     {
-        System.out.println("length = " + this.length + " , width = " + this.width);
+        System.out.println("矩形： " + "length = " + this.length + " , width = " + this.width);
     }
-    public int grtArea()
+    public int getArea()
     {
         return this.length * this.width;
     }
