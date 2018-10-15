@@ -1,4 +1,4 @@
-package TestArray;
+package testArray;
 
 public class TestArray
 {

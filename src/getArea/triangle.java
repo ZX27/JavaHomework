@@ -1,4 +1,4 @@
-package GetArea;
+package getArea;
 
 public class triangle
 {
