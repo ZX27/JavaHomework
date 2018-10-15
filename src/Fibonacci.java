@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Fibonacci
 {
     public static void printFibonacciSequence(int length)
@@ -23,6 +25,10 @@ public class Fibonacci
     }
     public static void main(String[] args)
     {
+        Scanner in = new Scanner(System.in);
+        System.out.println("输入想要输出的Fibonacci数列的长度：");
+        int length = in.nextInt();
+
         printFibonacciSequence(10);
     }
 }
