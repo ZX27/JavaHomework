@@ -29,6 +29,6 @@ public class Fibonacci
         System.out.println("输入想要输出的Fibonacci数列的长度：");
         int length = in.nextInt();
 
-        printFibonacciSequence(10);
+        printFibonacciSequence(length);
     }
 }
