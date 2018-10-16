@@ -1,9 +1,11 @@
 package pptHomework.PointTest;
 
+import java.lang.annotation.Retention;
+
 public class Point
 {
-     int x;
-     int y;
+     private int x;
+     private int y;
 
     public Point(int a, int b)
     {
@@ -36,6 +38,16 @@ public class Point
     public void getPoint()
     {
         System.out.println("(" + this.x + ", " + this.y);
+    }
+
+    public int getX()
+    {
+        return this.x;
+    }
+
+    public int getY()
+    {
+        return this.y;
     }
 
     public void movePoint(int a, int b)

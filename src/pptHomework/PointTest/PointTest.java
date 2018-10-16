@@ -6,11 +6,11 @@ public class PointTest
     {
         Point p= new Point(1, 2);
 
-        System.out.println("该点的初始位置：" + "(" + p.x + ", " + p.y + ")");
+        System.out.println("该点的初始位置：" + "(" + p.getX() + ", " + p.getY() + ")");
 
         p.movePoint(10, 20);
 
-        System.out.println("该点移动后的位置：" + "(" + p.x + ", " + p.y + ")");
+        System.out.println("该点移动后的位置：" + "(" + p.getX() + ", " + p.getY() + ")");
 
     }
 }
